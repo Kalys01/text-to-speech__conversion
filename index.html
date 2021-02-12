@@ -10,12 +10,11 @@
 </head>
 <body>
     <div class="container">
+        <h1 class="title">Озвучка текста на JavaScript</h1>
         <div class="box">
-            <textarea name="" class="box__text" id="msg-text" cols="30" rows="10" placeholder="Введите текст...">
-                <i class="fa fa-volume-up volume" id="speak" aria-hidden="true"></i>
-            </textarea>
-            <!-- <button class="box__btn" id="speak">Озвучить</button> -->
-            
+            <textarea name="" class="box__text" id="msg-text" placeholder="Введите текст кириллицей"></textarea>
+            <div class="fa fa-volume-up fa-lg box__volume empty" id="speak" aria-hidden="true"></div>
+            <div class="fa fa-times-circle-o fa-lg box__clear empty" id="clear" aria-hidden="true"></div>
         </div>
     </div>
 </body>
