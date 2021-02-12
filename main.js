@@ -7,7 +7,7 @@ function check(){
         btnclear.classList.remove('empty');
         if (empty(msg.value)) {
             btnspeak.classList.remove('empty');
-        } 
+        }
     }else {
         btnspeak.classList.add('empty');
         btnclear.classList.add('empty');
